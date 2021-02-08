@@ -77,7 +77,8 @@
 #include <linux/dmi.h>
 #include <linux/acpi.h>
 #include <linux/io.h>
-#include "compat.h"
+#include <linux/minmax.h>
+#include <linux/ioport.h>
 
 #ifndef IT87_DRIVER_VERSION
 #define IT87_DRIVER_VERSION	"<not provided>"
