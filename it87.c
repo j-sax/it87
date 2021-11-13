@@ -1494,7 +1494,7 @@ static int get_temp_type(struct it87_data *data, int index)
 		case it8625:
 			if (index < 3)
 				break;
-			// fall through
+			fallthrough;
 		case it8655:
 		case it8665:
 			if (src1 < 3) {
